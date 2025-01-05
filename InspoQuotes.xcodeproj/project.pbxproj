@@ -13,6 +13,7 @@
 		AD18A84821285CB000F6BF05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD18A84621285CB000F6BF05 /* LaunchScreen.storyboard */; };
 		AD18A85021285D4800F6BF05 /* QuoteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD18A84F21285D4800F6BF05 /* QuoteTableViewController.swift */; };
 		AD18A8532128604C00F6BF05 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AD18A8512128604B00F6BF05 /* README.md */; };
+		E54BADEF2D2AF3F300828834 /* QuoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54BADEE2D2AF3F300828834 /* QuoteTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AD18A84921285CB000F6BF05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD18A84F21285D4800F6BF05 /* QuoteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteTableViewController.swift; sourceTree = "<group>"; };
 		AD18A8512128604B00F6BF05 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E54BADEE2D2AF3F300828834 /* QuoteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				AD18A84621285CB000F6BF05 /* LaunchScreen.storyboard */,
 				AD18A8552128605C00F6BF05 /* Supporting Files */,
 				AD18A84921285CB000F6BF05 /* Info.plist */,
+				E54BADEE2D2AF3F300828834 /* QuoteTableViewCell.swift */,
 			);
 			path = InspoQuotes;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			files = (
 				AD18A85021285D4800F6BF05 /* QuoteTableViewController.swift in Sources */,
 				AD18A83E21285CAF00F6BF05 /* AppDelegate.swift in Sources */,
+				E54BADEF2D2AF3F300828834 /* QuoteTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,13 +230,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
 			};
 			name = Debug;
 		};
@@ -281,12 +286,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -296,13 +302,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3ECFYJZ64T;
+				DEVELOPMENT_TEAM = L7UNRCRJCD;
 				INFOPLIST_FILE = InspoQuotes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.londonappbrewery.InspoQuotes;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omarassidi.InspoQuotes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -314,13 +321,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3ECFYJZ64T;
+				DEVELOPMENT_TEAM = L7UNRCRJCD;
 				INFOPLIST_FILE = InspoQuotes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.londonappbrewery.InspoQuotes;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omarassidi.InspoQuotes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
